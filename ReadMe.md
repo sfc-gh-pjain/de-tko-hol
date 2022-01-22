@@ -33,7 +33,7 @@ There are two pieces of this demo. One that needs to be run on the snowflake wor
 
 1. Follow the pre steps document to setup your own S3 bucket as external stage (telco_data_stream) and connect to a common S3 exernal stage (S3_TELCO_DATA, unstructured_customer_data, unstructured_dependency_jars )
 2. Snowflake new UI (Snowsight) allows you to import the SQL file in the worksheet. Just click on the left hand side menu "Worksheets" and than click on the ... (elipses) to select ```Create worksheet from SQL File``` . You should do this step for all the sql file in the DE_TKO_HOL folder
-3. Start demo using the 01, 02, 03 .. worksheets
+3. Start the lab using the in the order of the series  01, 02, 03 .. worksheets
 4. You will need a jupyter notebook environment for snowpark. Please follow the instructions if you don't already have one [in medium blog here]
 5. Have your HOL Pre Steps documents handy as we will need it in the lab
 
