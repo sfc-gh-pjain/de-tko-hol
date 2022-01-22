@@ -21,7 +21,7 @@ schedule = '1 minute'
 USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE = 'XSMALL'
 COMMENT = 'Using serverless task to manage and update feature store'
 AS 
-call demo.telco.ordinalEncSQL('DEMO','TELCO','FEATURE_STORE','techsupport');
+call ordinalEncSQL('DE_DEMO_TKO_HOL','TELCO','FEATURE_STORE','techsupport');
 
 show tasks;
 

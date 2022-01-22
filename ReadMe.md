@@ -27,13 +27,13 @@ We are going to built an end to end data pipeline to built a BI, anaylytics data
 
 # Setup
 
-There are two pieces of this demo. One that needs to be run on the snowflake worksheet and other that needs to be run on the snowpark jupyter notebook
+There are two pieces of this lab. One that needs to be run on the snowflake UI as worksheets and other that needs to be run on the snowpark jupyter notebook
 
 ## SQL setup and steps
 
 1. Follow the pre steps document to setup your own S3 bucket as external stage (telco_data_stream) and connect to a common S3 exernal stage (S3_TELCO_DATA, unstructured_customer_data, unstructured_dependency_jars )
-2. Snowflake new UI (Snowsight) allows you to import the SQL file in the worksheet. Just click on the left hand side menu "Worksheets" and than click on the ... (elipses) to select ```Create worksheet from SQL File``` . You should do this step for all the sql file in the DE_TKO_HOL folder
-3. Start the lab using the in the order of the series  01, 02, 03 .. worksheets
+2. Snowflake new UI (Snowsight) allows you to import the SQL file in the worksheet. Just click on the left hand side menu "Worksheets" and than click on the ... (elipses) to select ```Create worksheet from SQL File``` . You should do this step for all the sql file in the ```DE_TKO_HOL``` folder
+3. Start the lab by running the worksheets in the order of the series  01, 02, 03 ..
 4. You will need a jupyter notebook environment for snowpark. Please follow the instructions if you don't already have one [in medium blog here]
 5. Have your HOL Pre Steps documents handy as we will need it in the lab
 

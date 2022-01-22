@@ -29,4 +29,3 @@ CREATE
             )
     );
 
--- just in case you missed the pre steps for demo setup
