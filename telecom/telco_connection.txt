@@ -1,8 +1,9 @@
-URL = https://<account>.snowflakecomputing.com
+URL = https://<account identifiers>.snowflakecomputing.com
 USER = <user_name>
 PASSWORD = <your_password>
 
-
+# For more information on account identifiers please visit 
+# https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#account-identifier-formats-by-cloud-platform-and-region
 # Note: To use key-pair authentication instead of a password,
 # comment out (or remove) PASSWORD. Then, uncomment PRIVATE_KEY_FILE
 # and set it to the path to your private key file.
