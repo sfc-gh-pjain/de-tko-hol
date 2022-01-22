@@ -1,0 +1,21 @@
+URL = https://<account>.snowflakecomputing.com
+USER = <user_name>
+PASSWORD = <your_password>
+
+
+# Note: To use key-pair authentication instead of a password,
+# comment out (or remove) PASSWORD. Then, uncomment PRIVATE_KEY_FILE
+# and set it to the path to your private key file.
+
+#PRIVATE_KEY_FILE = /home/jovyan/telecom/rsa_key.p8
+
+
+# If your private key is encrypted, you must also uncomment
+# PRIVATE_KEY_FILE_PWD and set it to the passphrase for decrypting the key.
+# "PRIVATE_KEY_FILE_PWD" -> "<passphrase_to_decrypt_private_key_file>",
+#
+
+ROLE = SYSADMIN
+DB = DE_DEMO_TKO_HOL
+WAREHOUSE = lab_l_wh
+SCHEMA = TELCO
