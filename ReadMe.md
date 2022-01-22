@@ -1,7 +1,7 @@
 # Building pipeline for Customer Churn analysis
 
 ## Reference Architecture of the Demo
-<img src="/images/Arch.png" />
+<img src="/telecom/arch.png" />
 
 <b>
 As a data engineering team member at a Telecom company, we have been tasked to build an end to end data pipeline in snowflake to support customer churn analysis by data science team. For this demo we have some customer data that our data science team would need.  We are responsible to build a feature store for the data science team. </b>
@@ -39,7 +39,7 @@ There are two pieces of this lab. One that needs to be run on the snowflake UI a
 
 ### Your snowflake DE_TKO_HOL folder should look like this
 
-<img src="/images/worksheets.png" />
+<img src="/telecom/worksheets.png" />
 
 [snowpipe setup here]: https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-s3.html
 [in medium blog here]: https://medium.com/snowflake/from-zero-to-snowpark-in-5-minutes-72c5f8ec0b55
