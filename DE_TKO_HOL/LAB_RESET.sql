@@ -23,10 +23,11 @@ DROP TABLE FEATURE_STORE;
 
 alter pipe TELCO_PIPE set pipe_execution_paused = true;
 
-/* This will remove all objects and you have to follow all the presteps */
 
 -- For Full reset only 
+/* This will remove all objects and you have to follow all the presteps */
 -- NOTE ** you will have to register the snowpipe SQS again with the 
 -- S3 Bucket event notifications properties
 
+-- un comment the below line for full reset
 -- DROP DATABASE DE_DEMO_TKO_HOL;
