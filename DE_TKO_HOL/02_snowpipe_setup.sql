@@ -6,6 +6,7 @@ Created For: End to End Data Engineering HOL
 Snowpipe can ingest data from any cloud object store using REST API or
 event notification channel. We will setup the auto_ingest in this script
 
+Update your Bucket name and AWS credentials before running this script
 */
 
 USE ROLE SYSADMIN;
