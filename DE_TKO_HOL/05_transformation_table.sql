@@ -8,7 +8,7 @@ AFTER RUNNING THIS SHEET, GO BACK TO JUPYTER NOTEBOOK TO SHOW THE ACTUAL TRANSFO
 
 use role sysadmin;
 use schema de_demo_tko_hol.telco;
-use warehouse lab_s_wh;
+use warehouse lab_l_wh;
 
 
 select * from raw_parquet;
