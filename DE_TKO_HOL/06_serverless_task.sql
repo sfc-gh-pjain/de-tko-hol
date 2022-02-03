@@ -16,9 +16,10 @@ USE WAREHOUSE LAB_L_WH;
 CREATE OR REPLACE TABLE FEATURE_STORE AS SELECT * FROM SERVICES;
 SELECT * FROM FEATURE_STORE;
 
--- Open a new worksheet outside of this folder and run the below command 
+-- Open a new worksheet and run the below command to give task execute access to SYSADMIN
 -- use role accountadmin;
 -- grant execute managed task on account to role sysadmin;
+-- grant execute task on account to role sysadmin;
 
 create or replace task task_update_feature_store
 schedule = '1 minute'
@@ -42,3 +43,5 @@ select *
 
 -- Check final output
 SELECT * FROM FEATURE_STORE;
+
+ALTER TASK TASK_UPDATE_FEATURE_STORE SUSPEND;
